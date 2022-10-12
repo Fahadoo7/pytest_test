@@ -6,10 +6,9 @@ def numbers():
     b=12
     c=22
     return [a,b,c]
-def test1():
-    a = numbers()
+def test1(numbers):
     z=10
-    assert z==a[0]
+    assert z==numbers[0]
     
 def test2(numbers):
     z=12
